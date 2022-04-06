@@ -16,8 +16,8 @@ input {
     position: absolute;
     width: 344px;
     height: 56px;
-    left: 16px;
-    top: 320px;
+    left: 2px;
+    top: 95px;
 
     border-radius: 15px; 
 }
@@ -73,6 +73,11 @@ p{
     margin-left: 160px;
     text-decoration: underline;
     }
+
+h{
+  font-size:32px;
+}
+
 
 
 

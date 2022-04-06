@@ -17,7 +17,14 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
 <!------ Include the above in your HEAD tag ---------->
+
+<link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
 <div  class="container">
 
@@ -25,7 +32,7 @@
 
 
     <div class="textPos">
-        <h3>Mitt nummer</h3>
+        <h3 style="font-size:32px;">Mitt nummer</h3>
         <p>Vi skickar ett sms med en verifieringskod till ditt mobilnummer. <br> Avgifter för datatrafik kan tillkomma.</p>
     </div>
 
@@ -34,6 +41,8 @@
         <input type="text" id="changeColorDemo" style="font-size:13px;" class="centerText"
         onkeyup="changeTheColorOfButtonDemo()">
     </div>
+
+    
 
     <div class="infoLinkPos">
         <a href="">Klicka här för att läsa mer information.</a>
@@ -54,6 +63,13 @@
 
 
 
-
+<script src="/JS/numberInput.js"></script>
 </body>
+<script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
 </html>
