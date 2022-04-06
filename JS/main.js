@@ -27,7 +27,7 @@ function validateName(event) {
         }
         
         
-        })
+    })
 }
 
 function validateEmail(event) {
@@ -57,7 +57,7 @@ function validateEmail(event) {
       
         }
 
-        })
+    })
 }
 
 
