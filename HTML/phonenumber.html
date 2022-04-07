@@ -17,14 +17,19 @@
 
   <body>
    
-    <h1 class="text-left">Mitt nummer</h1>
-    <p class="text-left">Vi skickar ett sms med en verifieringskod till ditt <br/>mobilnummer. Avgifter för datatrafik kan tillkomma.</p>
-    <a href=""><p class="text-right">Klicka här för att läsa mer information.</p></a>
-
+    <div class="textPosition">
+      <h1 class="text-left">Mitt nummer</h1>
+      <p class="text-left">Vi skickar ett sms med en verifieringskod till ditt <br/>mobilnummer. Avgifter för datatrafik kan tillkomma.</p>
+    </div>
+   
     <div>
       <form id="login" onsubmit="process(event)">
-        <input id="phone" class="changeColorOfButton" type="tel" name="phone" onkeyup="changeTheColorOfButtonDemo()"/>
+        <input id="phone" class="changeColorOfButton" type="number" name="phone" onkeyup="changeTheColorOfButtonDemo()"/>
       </form>
+    </div>
+
+    <div class="infoLink">
+      <a href=""><p class="text-right">Klicka här för att läsa mer information</p></a>
     </div>
 
     <div>
