@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/phonenumber.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  </head>
+
+
+  <body>
+   
+    <h1 class="text-left">Mitt nummer</h1>
+    <p class="text-left">Vi skickar ett sms med en verifieringskod till ditt <br/>mobilnummer. Avgifter för datatrafik kan tillkomma.</p>
+    <a href=""><p class="text-right">Klicka här för att läsa mer information.</p></a>
+
+    <div>
+      <form id="login" onsubmit="process(event)">
+        <input id="phone" class="changeColorOfButton" type="tel" name="phone" onkeyup="changeTheColorOfButtonDemo()"/>
+      </form>
+    </div>
+
+    <div>
+      <div>
+          <button id="buttonDemo" style="background:#D0D5DD;">Fortsätt</button>
+      </div>
+    </div>
+  
+
+
+
+
+  
+
+
+
+
+
+
+   <!--  <p class="text-center">Center aligned text on all viewport sizes.</p>
+    <p class="text-right">Right aligned text on all viewport sizes.</p>
+    
+    <p class="text-sm-left">Left aligned text on viewports sized SM (small) or wider.</p>
+    <p class="text-md-left">Left aligned text on viewports sized MD (medium) or wider.</p>
+    <p class="text-lg-left">Left aligned text on viewports sized LG (large) or wider.</p>
+    <p class="text-xl-left">Left aligned text on viewports sized XL (extra-large) or wider.</p> -->
+    
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  
+  
+  
+  
+    <script>
+      const phoneInputField = document.querySelector("#phone");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+    </script>
+    <script src="/JS/phonenumber.js"></script>
+  </body>
+
+
+</html>

@@ -1,0 +1,60 @@
+/* Basic styling */
+body{
+    margin: 2em;
+    font-family: Helvetica;
+}
+h1{
+    font-size: 32px;
+    color: #000000;
+}
+p{
+    font-size: 13px;
+    color: #4D4D4D;
+}
+a{
+    font-size: 13px;
+    color: #4D4D4D;
+    text-decoration: underline;
+}
+
+
+
+
+/* Inputs, buttons etc */
+form{
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 84px;
+
+    position: absolute;
+    width: 344px;
+    height: 56px;
+    left: 16px;
+    top: 50%;
+ 
+}
+input{
+    border-radius: 15px;
+    width: 344px;
+    height: 56px;   
+}
+button{
+    font-size:16px;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 84px;
+    
+    position: absolute;
+    width: 344px;
+    height: 56px;
+    left: 16px;
+    top: 622px;
+   
+}
