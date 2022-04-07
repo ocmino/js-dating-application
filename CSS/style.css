@@ -1,5 +1,47 @@
-.error {
-color: red;
-border-color: red;
-background-color: red;
+body {
+    font-family: Helvetica;
 }
+
+h1 {
+    font-size: 1em;
+    display: left;
+    margin-top: 7em;
+    margin-left: 1em;
+}
+
+.button{
+    background: #C593F1;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: #9234E4;
+}
+
+#question-container {
+    margin: 1em;
+}
+
+#answer {
+    display: center;
+    width: 3em;
+    height: 3em;
+    margin-top: 5em;
+    border-color: black;
+}
+
+#relation-container{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.relate {
+    font-size: .8em;
+    width: 6em;
+}
+
+#back-next {
+    margin: 5em;
+}
+

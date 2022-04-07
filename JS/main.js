@@ -25,8 +25,6 @@ function validateName(event) {
         if(nameInputValue.length >= 2 && nameInputValue.length <= 15) {
             nameInputError.innerText = 'Great name!'
         }
-        
-        
     })
 }
 
@@ -59,9 +57,6 @@ function validateEmail(event) {
 
     })
 }
-
-
-
 
 nameInput.addEventListener('focus',validateName())
 emailInput.addEventListener('focus', validateEmail())
